@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              git branch: 'main', url: 'https://github.com/aitnacer-nabil/orderCraft_test'
+              git branch: 'main', url: 'https://github.com/adilfettach/JenkinsCraftOrdre'
             }
         }
 
